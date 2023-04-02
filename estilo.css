@@ -50,14 +50,14 @@ body main #cartas #card-tras {
   position: absolute;
   width: 500px;
   height: 360px;
-  background-image: url(../imagens/quemeh2.png);
+  background-image: url(./quemeh2.png);
   background-repeat: no-repeat;
 }
 body main #cartas #card-frente {
   position: absolute;
   width: 500px;
   height: 360px;
-  background-image: url(../imagens/pablle2.png);
+  background-image: url(./pablle2.png);
   background-repeat: no-repeat;
   transform: rotateY(180deg);
 }
