@@ -53,6 +53,7 @@ body main #cartas #card-tras {
   height: 360px;
   background-image: url(./quemeh2.png);
   background-repeat: no-repeat;
+  border-radius: 15px;
 }
 body main #cartas #card-frente {
   z-index: 0;
@@ -61,6 +62,7 @@ body main #cartas #card-frente {
   height: 360px;
   background-image: url(./pablle2.png);
   background-repeat: no-repeat;
+  border-radius: 15px;
   transform: rotateY(180deg);
 }
 body main #cartas:hover #card-frente {
