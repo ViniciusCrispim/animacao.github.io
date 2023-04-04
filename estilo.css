@@ -44,9 +44,10 @@ body main #cartas {
   position: relative;
 }
 body main #cartas #card-tras, body main #cartas #card-frente {
-  transition: 1s;
+  transition: 0.7s;
 }
 body main #cartas #card-tras {
+  z-index: 1;
   position: absolute;
   width: 500px;
   height: 360px;
@@ -54,6 +55,7 @@ body main #cartas #card-tras {
   background-repeat: no-repeat;
 }
 body main #cartas #card-frente {
+  z-index: 0;
   position: absolute;
   width: 500px;
   height: 360px;
@@ -62,10 +64,10 @@ body main #cartas #card-frente {
   transform: rotateY(180deg);
 }
 body main #cartas:hover #card-frente {
-  transform: scaleX(1);
+  transform: rotateY(0);
 }
 body main #cartas:hover #card-tras {
-  transform: scaleX(-1);
+  transform: rotateY(180deg);
 }
 body main #cartas:hover #card-tras {
   z-index: 0;
